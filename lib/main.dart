@@ -82,6 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     return Container(
                         color: Color.fromARGB(255, 83, 148, 201),
                         child: Column(
+                          crossAxisAlignment : CrossAxisAlignment.start,
                           children: [Text(element._text), Text(element._descr)],
                         ));
                   }))
